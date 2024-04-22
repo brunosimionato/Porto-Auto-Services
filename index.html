@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Porto - Auto Services</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tahoma&display=swap">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="./assets/logo.png" alt="Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+
+  <section class="avaliacao animacao">
+    <div class="container">
+      <div class="container-grid">
+        <div class="avaliacao-dados">
+          <h3 id="h3-1">PROCURANDO SERVIÇOS CONFIÁVEIS?</h3>
+          <h3 id="h3-2">Melhor Mecânica no centro de Erechim RS</h3>
+          <p id="linha-3">Marque uma avaliação do seu veículo hoje mesmo com nosso formulário on-line</p>
+        </div>
+        <div class="avaliacao-contato">
+          <p id="ligar">Ligue agora</p>
+          <p id="telefone">(54) 9 9999-9999</p>
+        </div>
+        <div class="avaliacao-botao">
+          <button id="avaliacao-btn">Marque uma avaliação</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section class="sobre animacao" id="sobre">
+      <div class="container">
+        <div class="title-sobre">
+          <h1 class="detalhe-sobre">Vinte anos de experiência</h1>
+        </div> 
+        <div class="post-sobre">
+          <div class="story-sobre">
+            <p class="paragrafo-sobre">
+              Há duas décadas, nossa oficina mecânica tem sido um baluarte de excelência no setor automotivo.
+              Com um legado de 20 anos de experiência e dedicação inabalável, construímos uma reputação sólida 
+              baseada na qualidade dos nossos serviços e no compromisso com a satisfação do cliente. Ao longo desses anos, 
+              temos nos mantido na vanguarda da indústria, adaptando-nos às mudanças tecnológicas e investindo 
+              constantemente na capacitação da nossa equipe.
+            </p>
+            <p class="paragrafo-sobre">
+              Nossos 20 anos de atuação no mercado não são apenas um testemunho da nossa longevidade, mas também
+              um símbolo da nossa consistência em superar as expectativas dos nossos clientes. Através de uma 
+              combinação de expertise técnica, atendimento personalizado e uma abordagem centrada no cliente, 
+              continuamos a ser a escolha preferida de muitos proprietários de veículos que buscam confiança e 
+              tranquilidade quando se trata de cuidar de seus automóveis.
+            </p>
+          </div>
+          <div class="image-sobre">
+            <img src="./assets/sobre.png" alt="Imagem da oficina" class="sobre-sobre">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="servicos animacao" id="servicos">
+      <div class="container">
+        <div class="title-servicos">
+          <h1 class="detalhe-servicos">Serviços</h1>
+        </div>
+        <div class="post-servicos">
+          <div class="story-servicos">
+            <p class="paragrafo-servicos">
+              Na nossa oficina mecânica, oferecemos uma gama completa de serviços para garantir o bom funcionamento 
+              do seu veículo. Realizamos desde manutenções preventivas, como troca de óleo e filtros, até reparos mais 
+              complexos em sistemas de transmissão e freios. Nossa equipe altamente qualificada e experiente está pronta 
+              para atender às necessidades do seu carro, proporcionando segurança e confiabilidade em cada serviço prestado.
+            </p>
+          </div>
+        </div>
+
+        <div class="servicos-grid">
+          <div class="service-1">
+            <img src="./assets/service-1.jpg" alt="Reparação de Freios" class="img1">
+            <h1>Reparação de Freios</h1>
+          </div>
+          <div class="service-2">
+            <img src="./assets/service-2.jpg" alt="Verificação do Motor" class="img2">
+            <h1>Verificação do Motor</h1>
+          </div>
+          <div class="service-3">
+            <img src="./assets/service-3.jpg" alt="Reparação de Suspensão" class="img3">
+            <h1>Reparação de Suspensão</h1>
+          </div>
+          <div class="service-4">
+            <img src="./assets/service-4.jpg" alt="Reparo de Transmissor" class="img4">
+            <h1>Reparo de Transmissão</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="contato animacao" id="contato">
+      <div class="container">
+        <div class="title-contato">
+          <h1 class="detalhe-contato">Entre em Contato</h1>
+        </div>
+
+        <div class="post-contato">
+          <form class="contato-form">
+            <div class="nome">
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="email">
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="mensagem">
+              <label for="mensagem">Mensagem:</label>
+              <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btEnviar">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="contato-footer">
+          <h2>Entre em contato</h2>
+          <p><i class="endereco"></i> Endereço: Rua Exemplo, 123 - Cidade - Estado</p>
+          <p><i class="tell"></i> Telefone: (00) 1234-5678</p>
+          <p><i class="email"></i> E-mail: exemplo@empresa.com</p>
+        </div>
+        <div class="redes-sociais">
+          <h2>Redes Sociais</h2>
+          <ul>
+            <li><a href="https://www.facebook.com">Facebook</a></li>
+            <li><a href="https://www.twitter.com">Twitter</a></li>
+            <li><a href="https://www.instagram.com">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
